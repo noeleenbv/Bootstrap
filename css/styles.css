@@ -1,0 +1,52 @@
+.bgimage {
+	background-image: url('../images/bugs.jpg');
+	background-position:  center center;
+	background-size: cover;
+	height: 300px;
+}
+
+.icon {
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+.services section {
+	text-align: center;
+
+}
+
+.imghead {
+	background-image: url(../images/field_head.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	height: 300px;
+}
+
+.form-inline {
+	text-align: center;
+}
+.content {
+	padding-top: 70px;
+}
+.navbar-default {
+	border:none;
+}
+
+@media (min-width: 1200px) {
+	h3 {
+		margin-top: 0;
+	}
+	.services section {
+		text-align: left;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.img-responsive {
+		max-width: 50%;
+		min-width: 300px;
+	}
+
+}

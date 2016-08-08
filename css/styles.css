@@ -4,33 +4,36 @@
 	background-size: cover;
 	height: 300px;
 }
-
 .icon {
 	max-width: 150px;
 	margin: 0 auto;
 	display: block;
 }
-
 .services section {
 	text-align: center;
 
 }
-
 .imghead {
 	background-image: url(../images/field_head.jpg);
 	background-position: bottom center;
 	background-size: cover;
 	height: 300px;
 }
-
 .form-inline {
 	text-align: center;
 }
 .content {
 	padding-top: 70px;
 }
+.navbar {
+	margin-bottom: 0;
+}
 .navbar-default {
 	border:none;
+}
+.media img {
+	width: 100px;
+}
 }
 
 @media (min-width: 1200px) {

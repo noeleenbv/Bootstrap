@@ -30,11 +30,17 @@
 }
 .navbar-default {
 	border:none;
+	width: 100%;
+	z-index: 100;
 }
 .media img {
 	width: 100px;
 }
+header {
+  background: url('../images/headerimage.jpg') center center no-repeat;
+  height: 600px;
 }
+
 
 @media (min-width: 1200px) {
 	h3 {
